@@ -38,3 +38,12 @@ function atualizaTabela() {
     const totalContatos = corpoTabela.getElementsByTagName('tr').length;
     document.getElementById('resultado').textContent = `Total de contatos: ${totalContatos - 1}`;
 }
+
+function calculaContatos() {
+    let contatos = 1;
+
+    for (let i = 1; i < numero.length; i++) {
+        resultados += numero[i];
+    }
+}
+
